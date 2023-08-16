@@ -36,10 +36,11 @@ function App() {
   }, []);
 
   return (
-    <main className="bg-header min-h-screen text-white pt-0 ">
+    <main className="bg-header min-h-screen text-white pt-0  ">
       <div className=" bg-center flex justify-center items-center relative ">
-        <img className="w-[400px]  absolute" src="/img/circle.png" alt="" />
+        <img className="w-[350px] absolute animate-spin-slow  " src="/img/circle.png" alt="" />
         <img className="w-[300px] absolute top-full " src="/img/name.png" alt="" />
+        <img className="w-[80%] absolute" src="/img/Ellipse.png" alt="" />
       </div>
       <LocationForm handleSubmit={handleSubmit} />
       <LocationInfo currentLocation={currentLocation} />

@@ -9,6 +9,9 @@ export default {
       'fira': ['Fira Code', 'monospace']
     },
     extend: {
+      animation:{
+        'spin-slow': 'spin 6s linear infinite',
+      },
       backgroundImage: {
        'header': "url(/img/fond1.png)",
        'fondbody': "url(/img/fond2.png)", 
