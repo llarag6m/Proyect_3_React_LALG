@@ -29,12 +29,12 @@ const ResidentCard = ({residentUrl}) => {
         </header>
 
         <section className="p-2 py-8">
-            <h3 className="font-bold text-[26px] ">{residentInfo?.name}</h3>
-            <l>
-                <li className="font-medium text-[16px] text-gray-500 font-fira">Species: <span className=" font-semibold text-[20px] text-white font-fira">{residentInfo?.species}</span></li>
-                <li className="font-medium text-[16px] text-gray-500 font-fira" font-fira>Origin: <span className=" font-semibold text-[20px] text-white font-fira">{residentInfo?.origin.name}</span></li>
-                <li className="font-medium text-[16px] text-gray-500 font-fira">Times appear: <span className=" font-semibold text-[20px] text-white font-fira">{residentInfo?.episode.length }</span> </li>
-            </l>
+            <h3 className="font-bold text-[26px] text-center">{residentInfo?.name}</h3>
+            <ol>
+                <li className="font-medium text-[16px] text-gray-400 font-fira flex justify-around">Species: <span className=" font-semibold text-[16px] text-white font-fira ">{residentInfo?.species}</span></li>
+                <li className="font-medium text-[16px] text-gray-400 font-fira flex justify-around" font-fira>Origin: <span className=" font-semibold text-[16px] text-white font-fira">{residentInfo?.origin.name}</span></li>
+                <li className="font-medium text-[16px] text-gray-400 font-fira flex justify-around">Times appear: <span className=" font-semibold text-[16px] text-white font-fira">{residentInfo?.episode.length }</span> </li>
+            </ol>
         </section>
 
     </article>
