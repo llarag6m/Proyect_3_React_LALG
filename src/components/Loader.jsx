@@ -9,7 +9,7 @@ const Loader = () => {
   return (
     <div id="contenedor-carga">
       <div id = "carga">
-        <img src="/public/img/Loaderrick.ico" alt="" />
+        <img src="/img/Loaderrick.ico" alt="" />
       </div>
     </div>
   )
