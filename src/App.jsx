@@ -36,7 +36,7 @@ function App() {
   }, []);
 
   return (
-    <main className="bg-header bg-cover h-full w-full min-h-screen text-white pt-0  ">
+    <main className="bg-header  h-full w-full text-white pt-0  ">
       <LocationForm handleSubmit={handleSubmit} />
       <LocationInfo currentLocation={currentLocation} />
       <ResidentList residents={currentLocation?.residents ?? []} currentLocation={currentLocation}/>

@@ -19,7 +19,7 @@ const ResidentCard = ({residentUrl}) => {
   
 
   return (
-    <article className="border-solid border-2 border-green-500 overflow-hidden h-[640px] w-[400px]  transition duration-300 ease-in-out hover:scale-110">
+    <article className=" border-solid border-2  border-green-500 overflow-hidden h-[640px] w-[400px]  transition duration-300 ease-in-out hover:scale-110">
         <header className = " border-solid border-2 border-green-500 " >
             <img className="object-cover object-center overflow-hidden w-full  " src={residentInfo?.image} alt="" />
             <div className=" items-center gap-1 p-2  flex justify-center">
