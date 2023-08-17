@@ -2,7 +2,7 @@ const LocationForm = ({handleSubmit}) => {
   return (
   <section> 
     <div className=" bg-center flex justify-center items-center relative ">
-        <img className="max-h-[350px]  absolute animate-spin-slow " src="/img/circle.png" alt="" />
+        <img className="max-h-[400px]  absolute animate-spin-slow " src="/img/circle.png" alt="" />
         <img className="w-[300px] absolute top-full " src="/img/name.png" alt="" />
         <img className="w-[90%] absolute" src="/img/Ellipse.png" alt="" />
       </div>
