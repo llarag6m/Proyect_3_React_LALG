@@ -5,6 +5,7 @@ import LocationForm from "./components/LocationForm";
 import LocationInfo from "./components/LocationInfo";
 import ResidentList from "./components/ResidentList";
 import axios from "axios";
+import Loader from "./components/Loader";
 
 function App() {
   const [currentLocation, setcurrentLocation] = useState(null);
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <main className="bg-header  h-full w-full text-white pt-0  ">
+      <Loader />
       <LocationForm handleSubmit={handleSubmit} />
       <LocationInfo currentLocation={currentLocation} />
       <ResidentList residents={currentLocation?.residents ?? []} currentLocation={currentLocation}/>
